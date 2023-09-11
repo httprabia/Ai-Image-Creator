@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> AI Image Creator </title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1> AI Image Creator</h1>
+        <center>Write the image you want to create with Ai:</center> 
+        <form class="gen-form">
+            <input type="text" id="user-prompt" , placeholder="Type your prompt here..." autocomplete="off">
+            <button type="button" id="generate"> Create </button>
+        </form>
+
+        <div class="result">
+         <div id="loading">Creating...</div>
+         <div id="image-grid"></div>
+     </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
